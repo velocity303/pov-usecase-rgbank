@@ -1,5 +1,9 @@
 # POV Use Case for Nginx/PHP/Mysql based web application
 
+## Overview
+
+This profile will install and configure a stack consisting of PHP, NGINX, and MySQL to serve the RGBank application. There are a few exposed parameters to allow for modification, but this current implementation is a monolithic version meant to be deployed on a single node. 
+
 ## Installation
 
 Use code manager to install this module by adding the following entry to your Puppetfile.
