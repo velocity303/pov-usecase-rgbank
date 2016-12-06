@@ -2,7 +2,7 @@
 
 ## Overview
 
-This profile will install and configure a stack consisting of PHP, NGINX, and MySQL to serve the RGBank application. There are a few exposed parameters to allow for modification, but this current implementation is a monolithic version meant to be deployed on a single node. 
+This profile will install and configure a stack consisting of PHP, NGINX, and MySQL to serve the RGBank application. There are a few exposed parameters to allow for modification, but this current implementation is a monolithic version meant to be deployed on a single node.
 
 ## Installation
 
@@ -40,10 +40,10 @@ If looking to override the defaults provided by this profile, please use the fol
 
 ```
 ---
-profile_rgbank::user:     #string
-profile_rgbank::password: #string
-profile_rgbank::dbhost:   #string
-profile_rgbank::dbname:   #string
+profile_rgbank::user:     #string - Default: demo
+profile_rgbank::password: #string - Default: demo
+profile_rgbank::dbhost:   #string - Default: localhost
+profile_rgbank::dbname:   #string - Default: rgbank-db
 ```
 
 ## Operating systems validated
