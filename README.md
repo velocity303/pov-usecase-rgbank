@@ -6,7 +6,7 @@ Use code manager to install this module by adding the following entry to your Pu
 
 ```
 mod 'profile_rgbank',
-  :git => 'https://github.com/velocity303/pov-usecase-rgbank'
+  :git => 'https://github.com/velocity303/pov-usecase-rgbank.git'
 ```
 
 ## Modules Required
