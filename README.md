@@ -14,19 +14,20 @@ mod 'profile_rgbank',
 There are several modules required for this particular use case to function properly. Please add the following to your Puppetfile.
 
 ```
-mod 'puppetlabs/stdlib'
-mod 'hunner/wordpress'
-mod 'jfryman/selinux'
-mod 'mayflower/php'
-mod 'puppet/nginx'
-mod 'puppetlabs/app_modeling'
-mod 'puppetlabs/firewall'
-mod 'puppetlabs/haproxy'
-mod 'puppetlabs/mysql'
-mod 'puppetlabs/vcsrepo'
-mod 'garethr/docker'
+mod 'puppetlabs/stdlib', '4.13.1'
+mod 'hunner/wordpress', '1.0.0'
+mod 'jfryman/selinux', '0.4.0'
+mod 'mayflower/php', '4.0.0-beta1'
+mod 'puppet/nginx', '0.5.0'
+mod 'puppetlabs/app_modeling', '0.2.0'
+mod 'puppetlabs/firewall', '1.8.1'
+mod 'puppetlabs/haproxy', '1.5.0'
+mod 'puppetlabs/mysql', '3.10.0'
+mod 'puppetlabs/vcsrepo', '1.4.0'
+mod 'garethr/docker', '5.3.0'
 mod 'rgbank',
   :git => 'https://github.com/puppetlabs/puppetlabs-rgbank.git'
+  :ref => '1b545bc639d727e388da4af1217cc632ecaacc10'
 ```
 
 ## Important variables
